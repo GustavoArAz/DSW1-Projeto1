@@ -1,4 +1,3 @@
-# DSW1-Projeto1
 <div align="center">
 <h1>Central Looking For Group (LFG)</h1>
 </div>
