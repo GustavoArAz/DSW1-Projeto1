@@ -17,16 +17,16 @@ Na tela de fórum de cada jogo, todas com o mesmo layout, estariam presentes uma
 Na tela de LFG de cada jogo, todas com o mesmo layout, estaria presente uma lista de posts procurando por grupos, com um título, quantidade de jogadores atual/quantidade de jogadores requerida, e uma descrição mais específica do tipo de pessoa que o usuário que fez o post está procurando e o que ele quer fazer no jogo.
 
 ## Esboço de Páginas
-![Tela Principal](https://github.com/GustavoArAz/DSW1-Projeto1/blob/main/TelaInicial.png)
+![Tela Principal](https://github.com/GustavoArAz/DSW1-Projeto1/blob/main/Imagens/TelaInicial.png)
 
-![Tela de LFG](https://github.com/GustavoArAz/DSW1-Projeto1/blob/main/Tela%20de%20LFG.png)
+![Tela de LFG](https://github.com/GustavoArAz/DSW1-Projeto1/blob/main/Imagens/Tela%20de%20LFG.png)
 
-![Tela Criar Post LFG](https://github.com/GustavoArAz/DSW1-Projeto1/blob/main/Tela%20criar%20post%20LFG.png)
+![Tela Criar Post LFG](https://github.com/GustavoArAz/DSW1-Projeto1/blob/main/Imagens/Tela%20criar%20post%20LFG.png)
 
-![Tela do Fórum](https://github.com/GustavoArAz/DSW1-Projeto1/blob/main/TelaForum.png)
+![Tela do Fórum](https://github.com/GustavoArAz/DSW1-Projeto1/blob/main/Imagens/TelaForum.png)
 
-![Tela de Post do Fórum](https://github.com/GustavoArAz/DSW1-Projeto1/blob/main/Tela%20de%20Post%20do%20Forum.png)
+![Tela de Post do Fórum](https://github.com/GustavoArAz/DSW1-Projeto1/blob/main/Imagens/Tela%20de%20Post%20do%20Forum.png)
 
-![Tela Sign-In](https://github.com/GustavoArAz/DSW1-Projeto1/blob/main/Tela%20de%20Sign-in.png)
+![Tela Sign-In](https://github.com/GustavoArAz/DSW1-Projeto1/blob/main/Imagens/Tela%20de%20Sign-in.png)
 
-![Tela Login](https://github.com/GustavoArAz/DSW1-Projeto1/blob/main/Tela%20de%20Login.png)
+![Tela Login](https://github.com/GustavoArAz/DSW1-Projeto1/blob/main/Imagens/Tela%20de%20Login.png)
