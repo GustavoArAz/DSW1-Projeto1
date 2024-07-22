@@ -5,43 +5,20 @@ html {
   background-color: lightgrey;
 }
 
-.navbar {
-  overflow: hidden;
-  background-color: royalblue;
-  position: fixed; /* Set the navbar to fixed position */
-  top: 0; /* Position the navbar at the top of the page */
-  width: 100%; /* Full width */
-  max-height: 80px;
+.dropdown-menu {
+    position: relative; /* or absolute */
+    z-index: 9999; /* set a higher z-index value */
 }
 
-/* Links inside the navbar */
-.navbar a {
-  float: left;
-  display: block;
-  color: black;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+.container-fluid {
+    background-color: lightgray;
 }
 
-/* Change background on mouse-over */
-.navbar a:hover {
-  background: #375abe;
-  color: black;
-}
-
-.float-container {
-  background-color: lightgrey;
-  border: 3px solid #fff;
-  padding: 0px;
-}
-
-.float-child {
-  background-color: lightgray;
-  float: left;
-  padding-left: 10px;
-  padding-right: 10px;
-}
+/* ------------------------------------------------ */
+/* ------------------------------------------------ */
+/* -------------------- TABLES -------------------- */
+/* ------------------------------------------------ */
+/* ------------------------------------------------ */
 
 table.table1 {
   border: 1px solid black;
@@ -56,7 +33,7 @@ table.table1 a {
   text-decoration: none;
 }
 
-talbe.table1 td, table.table1 th {
+table.table1 td, table.table1 th {
   border: 1px solid #dddddd;
   text-align: center;
   padding: 8px;
@@ -87,4 +64,57 @@ table.table2 td, table.table2 th a:hover {
   color: black;
 }
 
-/*<input type="text" id="dsc" name="dsc" style="font-size: 18pt; height: 200px; width: 90%;"><br>*/
+/* ----------------------------------------------- */
+/* ----------------------------------------------- */
+/* -------------------- FORMS -------------------- */
+/* ----------------------------------------------- */
+/* ----------------------------------------------- */
+
+input[type=text], input[type=password], input[type=email] {
+  width: 30%;
+  padding: 6px 10px;
+  margin: 4px 0;
+  display: inline-block;
+  border: 1px solid black;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: royalblue;
+  color: white;
+  padding: 7px 10px;
+  margin: 4px 0;
+  border: none;
+  cursor: pointer;
+  width: 15%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+form.post {
+    padding-top: 0.5%;
+    background-color: lightgray;
+}
+
+form.post input[type="text"].players {
+    font-size: 15pt;
+    height: 40px;
+    width: 50px;
+}
+
+form.post input[type="text"].titulo {
+    font-size: 20pt;
+    height: 40px;
+    width: 250px;
+}
+
+form.post textarea {
+    font-size: 15pt;
+}
+
+form.auth {
+    padding-top: 80px;
+    text-align: center;
+}
