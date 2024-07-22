@@ -1,77 +1,127 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>Central LFG/Jogos/nomedojogo</title>
-  <link href="style.css" rel="stylesheet" type="text/css" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Central LFG/Nomedojogo</title>
+    <link href="style.css" rel="stylesheet" type="text/css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </head>
 
-<body>
-  <div class="navbar">
-    <a href="#home">Central LFG</a>
-    <a href="#jogos">Jogos</a>
-    <a href="#Fóruns">Fóruns</a>
-    <a style="float: right" href="#sign-in">Sign-In</a>
-    <a style="float: right" href="#login">Login</a>
-  </div>
-  
-  <div class="float-container" style="padding-top: 40px;">
-    <div class="float-child">
-      Nome do Jogo
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <a class="navbar-brand" href="#">Central LFG</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="Tela Inicial.html">Home<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item dropdown active">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Dropdown Jogos
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="Tela LFG.html">Destiny 2</a>
+                    <a class="dropdown-item" href="#">Helldivers 2</a>
+                    <a class="dropdown-item" href="#">Diablo IV</a>
+                    <a class="dropdown-item" href="#">Overwatch 2</a>
+                    <a class="dropdown-item" href="#">Rainbow 6 Siege</a>
+                    <a class="dropdown-item" href="#">Valorant</a>
+                    <a class="dropdown-item" href="#">League of Legends</a>
+                    <a class="dropdown-item" href="#">Apex Legends</a>
+                    <a class="dropdown-item" href="#">Warframe</a>
+                    <a class="dropdown-item" href="#">Final Fantasy XIV</a>
+                </div>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Dropdown Fóruns
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink2">
+                    <a class="dropdown-item" href="Tela Forum.html">Destiny 2</a>
+                    <a class="dropdown-item" href="#">Helldivers 2</a>
+                    <a class="dropdown-item" href="#">Diablo IV</a>
+                    <a class="dropdown-item" href="#">Overwatch 2</a>
+                    <a class="dropdown-item" href="#">Rainbow 6 Siege</a>
+                    <a class="dropdown-item" href="#">Valorant</a>
+                    <a class="dropdown-item" href="#">League of Legends</a>
+                    <a class="dropdown-item" href="#">Apex Legends</a>
+                    <a class="dropdown-item" href="#">Warframe</a>
+                    <a class="dropdown-item" href="#">Final Fantasy XIV</a>
+                </div>
+            </li>
+        </ul>
+        <ul class="navbar-nav ml-auto" id="user-nav">
+            <li class="navbar-item">
+                <a class="nav-link" href="Tela de Login.html">Login<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="navbar-item">
+                <a class="nav-link" href="Tela de Sign-In.html">Sign-In<span class="sr-only">(current)</span></a>
+            </li>
+        </ul>
     </div>
-    <div class="float-child" style="float: right;">
-      <table class="table2">
-        <tr>
-          <th><a href="criarpostforum">Criar post LFG</a></th>
-        </tr>
-      </table>
-    </div>
-  </div>
+</nav>
 
-  <div style="padding: 20px;"></div>
-  
-  <table class="table1">
-    <tr>
-      <th><a href="post1">Hellmire Helldive</a></th>
-      <th>3/4</th>
-      <th>Decrição descrição descrição descrição descrição descrição descrição descrição descrição descrição descrição</th>
-    </tr>
-    <tr>
-      <th><a href="post2">Malevelon Helldive</a></th>
-      <th>2/4</th>
-      <th>Decrição descrição descrição descrição descrição descrição descrição descrição descrição descrição descrição</th>
-    </tr>
-    <tr>
-      <th><a href="post3">Fenrir 3 Challenging</a></th>
-      <th>1/4</th>
-      <th>Decrição descrição descrição descrição descrição descrição descrição descrição descrição descrição descrição</th>
-    </tr>
-    <tr>
-      <th><a href="post4">Green Sample Farm</a></th>
-      <th>3/4</th>
-      <th>Decrição descrição descrição descrição descrição descrição descrição descrição descrição descrição descrição</th>
-    </tr>
-    <tr>
-      <th><a href="post5">Major Order dif 7</a></th>
-      <th>2/4</th>
-      <th>Decrição descrição descrição descrição descrição descrição descrição descrição descrição descrição descrição</th>
-    </tr>
-    <tr>
-      <th><a href="post6">Dif 2 leveling</a></th>
-      <th>1/4</th>
-      <th>Decrição descrição descrição descrição descrição descrição descrição descrição descrição descrição descrição</th>
-    </tr>
-    <tr>
-      <th><a href="post7">Bugs dif 5 Casual</a></th>
-      <th>1/4</th>
-      <th>Decrição descrição descrição descrição descrição descrição descrição descrição descrição descrição descrição</th>
-    </tr>
-    <tr>
-      <th><a href="post8">Super Sample Farming</a></th>
-      <th>2/4</th>
-      <th>Decrição descrição descrição descrição descrição descrição descrição descrição descrição descrição descrição</th>
-    </tr>
-  </table>
+<script type="module" defer src="script.js"></script>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-9"><h5>Nome do Jogo</h5></div>
+            <div class="col-sm-3 text-right"><a href="Tela Criacao Post LFG.html" class="btn btn-info" role="button" style="background-color: royalblue">Criar post LFG</a></div>
+        </div>
+    </div>
+    
+    <div class="container-fluid">
+        <table class="table1">
+            <tr>
+                <th><a href="Tela LFG.html">Hellmire Helldive</a></th>
+                <th>3/4</th>
+                <th>Decrição descrição descrição descrição descrição descrição descrição descrição descrição descrição descrição</th>
+            </tr>
+            <tr>
+                <th><a href="Tela LFG.html">Malevelon Helldive</a></th>
+                <th>2/4</th>
+                <th>Decrição descrição descrição descrição descrição descrição descrição descrição descrição descrição descrição</th>
+            </tr>
+            <tr>
+                <th><a href="Tela LFG.html">Fenrir 3 Challenging</a></th>
+                <th>1/4</th>
+                <th>Decrição descrição descrição descrição descrição descrição descrição descrição descrição descrição descrição</th>
+            </tr>
+            <tr>
+                <th><a href="Tela LFG.html">Green Sample Farm</a></th>
+                <th>3/4</th>
+                <th>Decrição descrição descrição descrição descrição descrição descrição descrição descrição descrição descrição</th>
+            </tr>
+            <tr>
+                <th><a href="Tela LFG.html">Major Order dif 7</a></th>
+                <th>2/4</th>
+                <th>Decrição descrição descrição descrição descrição descrição descrição descrição descrição descrição descrição</th>
+            </tr>
+            <tr>
+                <th><a href="Tela LFG.html">Dif 2 leveling</a></th>
+                <th>1/4</th>
+                <th>Decrição descrição descrição descrição descrição descrição descrição descrição descrição descrição descrição</th>
+            </tr>
+            <tr>
+                <th><a href="Tela LFG.html">Bugs dif 5 Casual</a></th>
+                <th>1/4</th>
+                <th>Decrição descrição descrição descrição descrição descrição descrição descrição descrição descrição descrição</th>
+            </tr>
+            <tr>
+                <th><a href="Tela LFG.html">Super Sample Farming</a></th>
+                <th>2/4</th>
+                <th>Decrição descrição descrição descrição descrição descrição descrição descrição descrição descrição descrição</th>
+            </tr>
+        </table>
+    </div>
 </body>
+
+</html>
